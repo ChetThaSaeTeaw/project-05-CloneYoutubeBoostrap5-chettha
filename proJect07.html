@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, intital-scale=1.0"/>
+        <link rel="stylesheet" href="proJect07.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <title>Project-07</title>
+        <style>
+            body {
+                background-color: rgba(0, 0, 0, 0.959);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <section id="header">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-1 fixed-top">
+                <div class="container-fluid m-2">
+                    <div class="d-flex">
+                        <a href="#" class="navbar-brand" data-bs-toggle="collapse" data-bs-target="#sideMenu"><i class="fas fa-bars me-3" style="font-size: 20px;"></i></a>
+                        <a href="#" class="navbar-brand text-danger"><i class="fab fa-youtube" style="font-size: 25px; margin-right: -10px;"></i></a>
+                        <span class="fw-bold text-white mt-2">YouNube<span class="ms-1">TH</span></span>
+                    </div>
+                    <div class="d-flex">
+                        <input type="search" placeholder="ค้นหา" class="form-control d-none d-md-block" style="width: 550px; height: 35px;"/> 
+                        <button class="btn btn-secondary" style="width: 65px; height: 35px;"><i class="fas fa-search my-auto"></i></button>
+                        <i class="fas fa-microphone text-white ms-3 mt-2" style="font-size: 20px;"></i>
+                    </div>
+                    <div class="d-flex d-none d-lg-block">
+                        <i class="fas fa-video text-white mx-3"></i>
+                        <i class="fab fa-elementor text-white mx-3"></i>
+                        <i class="fas fa-bell text-white mx-3"></i>
+                        <i class="fas fa-user-circle text-white mx-3"></i>
+                    </div>
+                </div>
+            </nav>
+            <div class="collapse" id="sideMenu" style="z-index: 10;">
+                <div class="flex float-start" style="width: 225px; background-color: rgba(128, 128, 128, 0.171);">
+                    <div class="flex my-4 " style="width: 100%;" >
+                        <div class="flex gg" style="width: 100%;">
+                            <a href="#"  class="text-white ms-4"><i class="fas fa-home text-muted me-3 my-3"></i>หน้าแรก</a>
+                        </div>
+                        <div class="flex gg">
+                            <a  href="#" class="text-white ms-4"><i class="fas fa-compass text-muted me-3 my-3"></i>สำรวจ</a>
+                        </div>
+                        <div class="flex gg">
+                            <a href="#" class="text-white ms-4"><i class="fas fa-eye text-muted me-3 my-3"></i>สำรวจ</a>
+                        </div>
+                        <hr style="color: gray;">
+                        <div class="flex gg">
+                            <a href="#" class="text-white ms-4"><i class="fas fa-folder text-muted me-3 my-3"></i>คลังวิดีโอ</a>
+                        </div>
+                        <div class="flex gg">
+                            <a href="#" class="text-white ms-4"><i class="fas fa-history text-muted me-3 my-3"></i>ประวัติการเข้าชม</a>
+                        </div>
+                        <div class="flex gg">
+                            <a href="#" class="text-white ms-4"><i class="fas fa-play text-muted me-3 my-3"></i>วิดีโอของคุณ</a>
+                        </div>
+                        <div class="flex gg">
+                            <a href="#" class="text-white ms-4"><i class="fas fa-clock text-muted me-3 my-3"></i>ดูภายหลัง</a>
+                        </div>
+                        <div class="flex gg">
+                            <a href="#" class="text-white ms-4"><i class="fas fa-thumbs-up text-muted me-3 my-3"></i>วิดีโอที่ชอบ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <div class="container-fluid p-4 mt-5">
+            <!-- Video Content -->
+            <div class="row">
+                <div class="col-md-9 bg-dark">
+                    <iframe width="97%" height="560px" src="https://www.youtube.com/embed/qnGTC8EUUes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="d-flex mt-3 justify-content-between">
+                        <div class="d-flex flex-column">
+                            <h5 class="text-white fw-light">เรื่องจริง Ost.คืนวันเสาร์[Official Audio] - Sin (singular)</h5>
+                            <p class="text-muted">การดู 108,198,898 ครั้ง • 26 ก.ค. 2012</p>
+                        </div>
+                        <div class="d-flex flex-row align-items-end mb-2">
+                            <span class="text-white text-muted mx-3 fs-5"><i class="fas fa-thumbs-up"></i> 4.3 แสน</span>
+                            <span class="text-white text-muted mx-3 fs-5"><i class="fas fa-thumbs-down"></i> 9.8 พัน</span>
+                            <span class="text-white text-muted mx-3 fs-5"><i class="fas fa-share"></i></span>
+                            <span class="text-white text-muted mx-3 fs-5"><i class="fas fa-save"></i> บันทึก</span>
+                            <span class="text-white text-muted mx-3 fs-5"><i class="fas fa-ellipsis-h"></i></span>
+                        </div>
+                    </div>
+                    <hr style="color: gray;">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex m-2 me-3">
+                                <img src="https://yt3.ggpht.com/ytc/AAUvwnhw6gHdZi4VIdvnu3IuiQN8KuvzmBk-NYVKqLDHzw=s900-c-k-c0x00ffffff-no-rj" alt="TERO MUSIC" style="width: 40px; height: 40px; border-radius: 50px;"/>
+                            </div>
+                            <div class="d-flex flex-column text-white">
+                                <strong>TERO MUSIC</strong>
+                                <p class="text-muted">ผู้ติดตาม2.2ล้าน คน</p>
+                                <p>ซิงเกิ้ลพิเศษจาก Sin (singular) iTunes <a href="http://bit.ly/Qk7xI2" style="text-decoration: none;">http://bit.ly/Qk7xI2</a></p>
+                                <p>Written by Sin (Singular)</p>
+                                <a class="text-muted" href="#" data-bs-toggle="collapse" data-bs-target="#switchReadmore" style="text-decoration: none;">แสดงเพิ่มเติม</a>
+                                <div class="collapse text-white" id="switchReadmore">
+                                    <p>เพลงประกอบภาพยนตร์ "คืนวันเสาร์ถึงเช้าวันจันทร์"<br>
+                                    "...ให้เป็นความคิดถึง แม้นานเท่าไหร่ 
+                                    เธอจะอยู่ในใจ เป็นเรื่องจริงในความทรงจำ"</p>
+                                    <p>DIGITAL DOWNLOAD โทร<br>
+                                    *496515 (ค่าบริการนาทีละ 5 บาท ไม่รวมค่าคอนเทนต์) หรือ<br>
+                                    *927 Sony Music จัดเต็ม (โหลดไม่อั้นเพียงสัปดาห์ละ 9 บาท เฉพาะ AIS และ DTAC)</p>
+                                    <p><a href="https://www.facebook.com/sin.page"​ style="text-decoration: none;">https://www.facebook.com/sin.page</a><br>
+                                    <a href="https://www.facebook.com/thesingularband" style="text-decoration: none;"> https://www.facebook.com/thesingularband</a><br>
+                                    <a href="https://www.singularband.com​" style="text-decoration: none;">https://www.singularband.com​</a><br>
+                                    Instagram : @sinofficial<br>
+                                    โทร 02 686 8000</p>
+                                </div>
+                            </div>
+                            <hr style="color: gray;">
+                        </div>
+                        <div class="d-flex flex-row">
+                            <button class="btn btn-danger me-3" style="width: 80px; height: 40px;">ติดตาม</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- List Content -->
+                <div class="col-md-3 bg-dark">
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/KSPOHP8ObTY/maxresdefault.jpg" alt="orange" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <strong>ORANGE-SILLYFOLS</strong>
+                            <p class="text-muted">ME RECORDS</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 4 ล้านครั้ง 7 เดือนที่ผ่านมา</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/hMgnbOj9kb4/maxresdefault.jpg" alt="กีดกัน" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <strong>Billkin - กีดกัน (Skyline)</strong>
+                            <p class="text-muted">Nadao Music</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 35 ล้านครั้ง 6 เดือนที่ผ่านมา</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/mAc-xabGmWg/maxresdefault.jpg" alt="บอก" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <strong>บอก - CLASH</strong>
+                            <p class="text-muted">GRAND MUSIK</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 3.3 ล้านครั้ง 7 เดือนที่ผ่านมา</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/UsnIyScLe-s/maxresdefault.jpg" alt="ช่างมัน" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <strong>ช่างมัน - COCKTAIL</strong>
+                            <p class="text-muted">Genierock</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 116 ล้านครั้ง 4 ปีที่แล้ว</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/ePdyoX_B-nE/maxresdefault.jpg" alt="ถ้าเธอต้องเลือก" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <strong>ILLSLICK - ถ้าเธอต้องเลือก</strong>
+                            <p class="text-muted">lllslick thelegandary</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 446 ล้านครั้ง 3 ปีที่แล้ว</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/Y9nSm9WaEdc/maxresdefault.jpg" alt="2รัก" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <strong>สองรัก - ZEAL</strong>
+                            <p class="text-muted">GMM GRAMMY OFFICIAL</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 44 ล้านครั้ง 6 ปีที่แล้ว</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/eVTXPUF4Oz4/maxresdefault.jpg" alt="In the end" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <strong>In The End - Linkin Park</strong>
+                            <p class="text-muted">Linkin Park</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 1.1 พันล้านครั้ง 11 ปีที่แล้ว</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/tj0PtMZaWss/maxresdefault.jpg" alt="Saosin - You're Not Alone" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex-column text-white">
+                            <strong>Saosin - You're Not Alone</strong>
+                            <p class="text-muted">saosin</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 11 ล้านครั้ง 13 ปีที่แล้ว</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/hTWKbfoikeg/maxresdefault.jpg" alt="Nirvana - Smells Like Teen Spirit" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex-column text-white">
+                            <strong>Nirvana - Smells Like Teen Spirit</strong>
+                            <p class="text-muted">Nirvava</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 1.2 พันล้านครั้ง 12 ปีที่แล้ว</p>
+                        </div>
+                    </div>
+                    <div class="d-flex m-2">
+                        <div class="d-flex me-2">
+                            <img src="https://i.ytimg.com/vi/1w7OgIMMRc4/maxresdefault.jpg" alt="Guns N' Roses - Sweet Child O' Mine" style="width: 150px; height: 100px;"/>
+                        </div>
+                        <div class="d-flex-column text-white">
+                            <strong>Guns N' Roses - Sweet Child O' Mine</strong>
+                            <p class="text-muted">Guns N' Roses</p>
+                            <p class="text-muted" style="margin-top: -17px; font-size: 12px;">การดู 1.2 พันล้านครั้ง 11 ปีที่แล้ว</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </body>
+</html>

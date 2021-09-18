@@ -1,0 +1,6 @@
+.gg a{
+    text-decoration: none;
+}
+.gg:hover{
+    background-color: rgba(128, 128, 128, 0.253);
+}
